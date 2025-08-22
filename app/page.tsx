@@ -89,7 +89,7 @@ export default function LandingPage() {
               <Button
                 variant="ghost"
                 onClick={scrollToFAQ}
-                className="text-gray-700 hover:text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 text-sm sm:text-base px-2 sm:px-4"
+                className="text-gray-700 hover:text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 text-sm sm:text-base px-2 sm:px-4 rounded-full"
               >
                 FAQ
               </Button>
@@ -102,7 +102,7 @@ export default function LandingPage() {
               </Button>
               <Button
                 size="sm"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-2 sm:px-4 py-2 font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 hover:-translate-y-0.5 text-xs sm:text-sm"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-2 sm:px-4 py-2 font-semibold rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 hover:-translate-y-0.5 text-xs sm:text-sm"
                 onClick={() => window.open("tel:(949) 603-0389")}
               >
                 <Phone className="mr-1 sm:mr-2 h-3 w-3 sm:h-4 sm:w-4" />
